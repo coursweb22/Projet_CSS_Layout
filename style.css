@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+}
+a {
+    color: #252525;
+    text-decoration: none;
+}
+.header-menu a {
+    margin-right: 20px;
+}
+
+.active {
+    color: #5dc6b0;
+}
+.docplanner-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+.Logo-docplanner {
+    width: 250px;
+    height: 50px;
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.introduction-title {
+    color: #5dc6b0;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.introduction-text {
+    display: flex;
+    
+    width: 80%;
+  
+    
+}
+.paragraphe1 {
+    width: 50%;
+    
+}
+.paragraphe2 {
+
+    width: 50%;
+}
+.services {
+    display: flex;
+}
+.services-card {
+    background-color: red ;
+    padding: 20px;
+    border-radius: 8;
+    color: white;
+}
+
+.service-card-patients {
+    background-color:#5dc6b0 ;
+    height: 600px;
+}
+.service-card-doctors {
+    background-color: #3d83df;
+    height: 600px;
+}
+.service-card-clinics {
+    background-color: #1b2734;
+}
+.service-card-title {
+  color: white;
+  margin-left: 15px;
+  margin-bottom: 90px;
+  padding-left: 10px;
+
+}
+
+
+.service-card-patients,
+.service-card-doctors,
+.service-card-clinics{
+    width: 300px;
+    border-radius: 10px;
+    height: 330px;
+  
+  
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 20%;
+
+}
+.for_patients {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.for_doctors {
+  margin-left: 30px;
+  margin-top: 15px;
+ 
+ }
+.for_clinics {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.global_compagny {
+     /* background-color: #5dc6b0 */
+    display: flex;
+    justify-content: center;
+}
+.contenu {
+  
+}
+.compagny_icone {
+ 
+    margin-top: 30px;
+}
+.global_contenu {
+    display: flex;
+    width: 60%;
+   
+}
